@@ -33,11 +33,12 @@ harness = true
 #required-features = ["diesel/sqlite"]
 
 [features]
+default = []
 postgres = ["diesel/postgres"]
 sqlite = ["diesel/sqlite"]
 mysql = ["diesel/mysql"]
 
 
 [patch.crates-io]
-diesel = {git = "https://github.com/GiGainfosystems/diesel", rev = "819ab862c2286ff08725ac3800722228a90b71e6"}
-diesel_derives = {git = "https://github.com/GiGainfosystems/diesel", rev = "819ab862c2286ff08725ac3800722228a90b71e6"}
+diesel = {git = "https://github.com/GiGainfosystems/diesel", rev = "bbc1fc40c60555afaaed9b42284dcf141a4dfec4"}
+diesel_derives = {git = "https://github.com/GiGainfosystems/diesel", rev = "bbc1fc40c60555afaaed9b42284dcf141a4dfec4"}
